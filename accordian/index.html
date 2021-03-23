@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='style.css' rel='stylesheet'>
+    <title>accordian</title>
+</head>
+<body onload='mess()'>
+    <div class='container'>
+        <div class='accordian' >
+            <div class="question" id=b>
+               <a >Wo ist Mikkel?</a>
+               <a class='plus' id='p' onclick="show(this)">+</a>
+               <a class='mini' id='m' onclick="hide(this)">-</a>
+            </div>
+            <p id='para' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit delectus corrupti asperiores doloremque harum commodi quaerat dolore, quas quidem quod veniam hic nostrum accusantium porro laboriosam necessitatibus odio labore.</p>
+        </div>
+        
+    </div>
+    <script>
+      
+        function show(t){
+            document.getElementById('para').style.display='block';
+            t.style.display='none';
+            document.getElementById('b').style.borderRadius ='7px 7px 0 0';
+            document.getElementById('m').style.display='block';
+
+            
+        
+
+        }
+        function hide(){
+            document.getElementById('para').style.display='none';
+            document.getElementById('p').style.display='block';
+            document.getElementById('m').style.display='none';
+            document.getElementById('b').style.borderRadius ='7px';
+            
+
+        }
+        
+        function  mess(){
+            alert('fuck you twice life')
+        }
+    </script>    
+   
+</body>
+</html>

@@ -1,0 +1,363 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.container{
+    background:linear-gradient(90deg,#667db6,#0082c8,#0082c8,#667db6);
+    width:100vw;
+    height:100vh;
+}
+nav{
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    width:80vw;
+    margin:auto;
+    padding:2.5em 0em;
+}
+ul{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+li{
+    list-style:none;
+    margin:0em 1.3em;
+    font-size: 1.3vw;
+    padding:6px 0px;
+    color:rgb(250, 235, 212)
+}
+li:hover{
+    border-bottom:solid 2px white;
+    
+}
+span{
+    position:relative;
+    font-size: 3vw;
+    font-weight: 500;
+}
+.banner{
+    width:80vw;
+    margin:auto;
+    display:flex;
+    align-items: stretch;
+    position:relative;
+    top:40px;
+
+}
+.bancon{
+    width:40%;
+    color:white;
+    position:relative;
+    top:38px;
+
+}
+.bansvg{
+    width:60%;
+}
+.bancon h1{
+    font-size: 5vw;
+}
+.bancon .a{
+    font-size: 1.3vw;
+    color:rgb(212, 209, 209);
+}
+.pro{
+    padding:20px;
+    background-color: rgb(0, 199, 182);
+    margin:0 20px 0 0;
+    border:1px  ;
+    border-radius: 50px 50px 50px 0;
+    transition:border-radius 400ms;
+    
+}
+.pro:hover{
+    border-radius: 0 50px 50px 50px;
+}
+.call{
+    padding:12px;
+    background-color: rgb(231, 103, 225);
+    border-radius: 50px 50px 50px 0;
+    font-size: 15px;
+    transition:border-radius 400ms;
+}
+.call:hover{
+    border-radius: 0 50px 50px 50px;
+}
+.banbut{
+    display:flex;
+    margin:30px 0 0 0;
+}
+.bansvg img{
+    width:90%;
+    margin:0 0 0 80px;
+}
+main{
+    width:80vw;
+    margin:auto;
+}
+.services{
+    display:flex;
+    height:100vh;
+    
+}
+.servcon{
+    width:34%;
+    position:relative;
+    top:9vw;
+}
+.servcon h4{
+    font-size: 1.3vw;
+    color:#0082c8;
+    margin-bottom:20px;
+}
+.servcon h1{
+    font-size: 3.4vw;
+    margin-bottom:20px;
+}
+.servcon p{
+    font-size: 1.3vw;
+    color: grey;
+    line-height:30px;
+    width:80%;
+}
+.servcon button{
+    background-color:rgb(160, 94, 221);
+    color:white;
+    font-size: 16px;
+    padding:12px 15px;
+    border:1px;
+    border-radius: 50px 50px 50px 0;
+    margin-top:30px;
+    transition:border-radius 400ms;
+
+}
+.servcon button:hover{
+    border-radius:0 50px 50px 50px;
+}
+.cards{
+    width:68%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 9%;
+    padding-left: 5%;
+    
+}
+.c{
+    width:29%;
+    height:42%;
+    box-shadow:0.5px 0.5px 30px -10px  #ebe7e7;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+.c:hover{
+    background-color: #1fb6fc;
+    transition:all 300ms ease-in-out ;
+    
+}
+.c:hover span{
+    background-color: white;
+}
+.c:hover h5,.c:hover p{
+    color:rgb(255, 255, 255);
+}
+.cards span{
+    background-color: rgb(237, 249, 250);
+    padding:10px 12px;
+    border:1px;
+    border-radius:50%;
+    color:rgb(0, 153, 255);
+
+}
+
+.cards span::before{
+    margin-left:0;
+    font-size: 40px;
+
+}
+
+.cards h5{
+    font-size:20px;
+    margin-top: 17px;
+}
+.cards p{
+    margin-top: 15px;
+    font-size:16px ;
+    color:rgb(124, 120, 120);
+}
+.proj{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 7%;
+    box-shadow: 1px 10px 30px -10px rgb(177, 175, 175);
+    border:1px;
+    border-radius:10px;
+    
+}
+.proj span{
+    font-size: 50px;
+    color:rgb(47, 171, 248);
+    margin-left: 5px;
+}
+.proj p{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.proj div{
+    margin-right: 30px;
+}
+.aboutus img{
+    width:50%;
+}
+.aboutus .aucon{
+    width:45%;
+}
+.aboutus{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 18%;
+    font-family:roboto,sans-serif;
+}
+.aucon h4{
+    font-size: 18px;
+    color:#1fb6fc;
+
+}
+.aucon h3{
+    font-size:40px;
+    margin-top:15px;
+    margin-bottom:20px;
+    color:rgb(54, 54, 54);
+}
+.aucon p{
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 25px;
+    color:rgb(112, 111, 111);
+
+}
+.aucon button{
+    margin-top: 30px;
+    padding:15px 25px;
+    border:1px;
+    border-radius: 50px 50px 50px 0;
+    font-size: 16px;
+    color:white;
+    background-color:rgb(90, 119, 248);
+}
+.aucon button:hover{
+    border-radius:0px 50px 50px 50px;
+    transition:border-radius 300ms ease-in-out;
+}
+.ic {
+    width:22%;
+    box-shadow: 1px 5px 45px -10px  rgb(240, 237, 237);
+}
+.ic:hover{
+    background-color: rgb(236, 234, 234);
+}
+.ic img{
+    width:100%;
+    height:400px;
+}
+.team h5,.team h2,.team p{
+    margin:20px auto;
+    text-align: center;
+
+}
+.tm{
+    display:flex;
+    justify-content: space-between;
+}
+.team h5{
+    color:#1fb6fc;
+    font-size: 18px;
+}
+.team h2{
+    font-size:40px;
+}
+.x{
+    width:60%;
+    line-height: 20px;
+    font-size: 18px;
+}
+.team p{
+    font-size: 18px;
+    color:rgb(117, 116, 116);
+}
+.ic .n{
+    font-size: 20px;
+    color:black;
+}
+.team{
+    margin-top: 130px;
+}
+.card{
+    width:18vw;
+    border:1px;
+    border-radius: 10px;
+    font-size: 18px;
+    padding:30px;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    top:80px;
+    height:65vh;
+    box-shadow: 5px 5px 30px -10px rgb(207, 206, 206);
+}
+.card:hover{
+    background-color: #0486c2;
+}
+.card:hover p{
+    color:white;
+}
+.card img{
+    width:30%;
+    margin:0 35%;
+}
+.card .s{
+    
+    font-size: 25px;
+    
+}
+.card p{
+    margin-top: 20px;
+    line-height: 25px;
+}
+.why{
+    display:flex;
+    justify-content: space-evenly;
+}
+.f{
+    text-align: center;
+    margin:18px;
+    color:white;
+}
+footer{
+    background:linear-gradient(90deg,#5a71f3, #34a1fa);
+    height:80vh;
+    margin-top: 150px;
+}
+.move{
+    position:relative;
+    top:20%;
+}
+.h1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.h2{
+    font-size: 40px;
+}
+.h3{
+    color:rgb(235, 231, 231);
+    width:60%;
+    margin:auto;
+    font-size: 18px;
+}

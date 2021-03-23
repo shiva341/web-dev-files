@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='login.css' rel='stylesheet' type='text/css'>
+    <title>login</title>
+</head>
+<body>
+    <form >
+       <div class='container'>
+          <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" width='45%'>
+          <input type='text' id='user' name='user' placeholder="Username" onkeyup="clicked(this)">
+          <input type="password" id='pass' name='pass' placeholder="Password" >
+          <input type="submit" id='submit'  >
+       </div>
+    </form>
+    <script>
+        function clicked(ele){
+            let re =ele.value;
+            ele.value=re.toUpperCase()    
+        }
+        
+        
+    </script>
+</body>
+</html>
